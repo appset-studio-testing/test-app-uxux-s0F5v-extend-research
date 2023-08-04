@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: docker-devfile-sample-hello-world-chol
     spec:
       containers:
-      - image: image
+      - image: quay.io/ysubrama_org/build-e2e-gakv-tenant/test-app-uxux/docker-devfile-sample-hello-world-chol@sha256:27cc88b13a92356fbe7f0d6a27d15829d5619f5aca45bb4c82aa1c4148b21607
         imagePullPolicy: Always
         name: container-image
         ports:
