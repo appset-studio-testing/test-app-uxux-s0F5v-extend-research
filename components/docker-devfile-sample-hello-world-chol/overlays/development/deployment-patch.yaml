@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: docker-devfile-sample-hello-world-chol
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/ysubrama_org/build-e2e-gakv-tenant/test-app-uxux/docker-devfile-sample-hello-world-chol@sha256:27cc88b13a92356fbe7f0d6a27d15829d5619f5aca45bb4c82aa1c4148b21607
+        name: container-image
+        resources: {}
+status: {}
